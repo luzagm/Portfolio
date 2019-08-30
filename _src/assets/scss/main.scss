@@ -1,8 +1,90 @@
-@import 'core/settings';
-@import 'core/links';
-
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
-	height: 100vh;
+* {
+  margin: 0;
 }
+
+.landing {
+  background-image: url("../images/background-image.png");
+  background-size: cover;
+  background-position: 61%;
+  height: 100vh;
+
+  &__icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+
+    &__about {
+      display: none;
+    }
+
+    &__projects {
+      display: none;
+    }
+
+    &__contact {
+      display: none;
+    }
+  }
+
+  &__title {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 100px;
+  }
+
+  &__name {
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 100px;
+  }
+
+  &__job {
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 42px;
+  }
+}
+
+.about {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 28px;
+  }
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__text {
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 28px;
+  }
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 28px;
+  }
+}
+
+@import "layouts/landing-mediaq";

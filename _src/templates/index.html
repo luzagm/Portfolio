@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Adalab Web Starter Kit</title>
-  <link rel="icon" href="favicon.png"/>
-	<link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-  <div class="page">
-    <partial src="_header.html" label="Header"></partial>
-    <partial src="_main.html" label="Main"></partial>
-    <partial src="_link.html" aClass="link__adalab" text="Adalab" url="https://adalab.es"></partial>
-    <partial src="_link.html" aClass="link__github" text="GitHub" url="https://github.com"></partial>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Gayathri|Six+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <section class="landing">
+      <div class="landing__icon">
+
+        <div class="about">
+          <img
+            class="landing__icon__about"
+            src="./assets/images/left.png"
+          />
+          <p class="about__text">About</p>
+        </div>
+
+        <div class="projects">
+            <img
+              class="landing__icon__projects"
+              src="./assets/images/top.png"
+            />
+            <p class="projects__text">Projects</p>
+          </div>
+
+        <div class="contact">
+          <p class="contact__text">Contact</p>
+          <img class="landing__icon__contact" src="./assets/images/right.png" />
+        </div>
+      </div>
+
+      <div class="landing__title">
+        <h1 class="landing__name">Luz Aguirre</h1>
+        <h2 class="landing__job">Front-End developer</h2>
+      </div>
+
+    </section>
+  </body>
 </html>

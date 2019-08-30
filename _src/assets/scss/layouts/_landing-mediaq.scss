@@ -1,0 +1,80 @@
+@media all and (min-width: 768px) {
+  .landing {
+    &__icon {
+      display: flex;
+      justify-content: space-between;
+      background-color: transparent;
+      padding: 0;
+
+      &__about {
+        display: block;
+        width: 70px;
+        height: 7px;
+      }
+
+      &__projects {
+        display: block;
+        position: relative;
+        top: 0;
+        width: 7px;
+        height: 35px;
+      }
+
+      &__contact {
+        display: block;
+        width: 70px;
+        height: 7px;
+      }
+    }
+
+    &__title {
+      display: block;
+      top: 50px;
+    }
+
+    &__name {
+      font-size: 120px;
+    }
+
+    &__job {
+      font-size: 46px;
+    }
+  }
+
+  .about {
+    padding-top: 32px;
+
+    &__text {
+      padding: 0 15px;
+      font-size: 32px;
+    }
+
+    &__text:hover {
+      color: red;
+    }
+  }
+
+  .projects {
+    &__text {
+      margin: 2px 0;
+      font-size: 32px;
+    }
+
+    &__text:hover {
+      color: red;
+    }
+  }
+
+  .contact {
+    padding-top: 32px;
+
+    &__text {
+      padding: 0 15px;
+      font-size: 32px;
+    }
+
+    &__text:hover {
+      color: red;
+    }
+  }
+}
