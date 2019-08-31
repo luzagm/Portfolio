@@ -1,0 +1,19 @@
+.projects__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects__title {
+  font-family: "Six Caps", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 36px;
+}
+
+.project__box {
+  background-color: black;
+  margin: 10px;
+  height: 180px;
+  width: 300px;
+}
