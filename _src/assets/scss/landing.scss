@@ -11,10 +11,13 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 15px;
+    padding: 15px 0;
 
     &__about {
-      display: none;
+      display: block;
+      padding-right: 2px;
+      width: 40px;
+      height: 6px;
     }
 
     &__projects {
@@ -22,7 +25,10 @@
     }
 
     &__contact {
-      display: none;
+      display: block;
+      padding-left: 2px;
+      width: 40px;
+      height: 6px;
     }
   }
 
@@ -30,21 +36,33 @@
     display: block;
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 150px;
   }
 
   &__name {
     font-family: "Six Caps", sans-serif;
     font-weight: 400;
-    letter-spacing: 5px;
-    font-size: 100px;
+    letter-spacing: 2px;
+    font-size: 70px;
   }
 
   &__job {
     font-family: "Six Caps", sans-serif;
     font-weight: 400;
-    letter-spacing: 3px;
-    font-size: 42px;
+    letter-spacing: 2px;
+    font-size: 36px;
+  }
+
+  &__logo__box {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+  }
+
+  &__logo {
+    height: 100%;
   }
 }
 
@@ -55,8 +73,8 @@
   &__text {
     font-family: "Six Caps", sans-serif;
     font-weight: 400;
-    letter-spacing: 3px;
-    font-size: 28px;
+    letter-spacing: 2px;
+    font-size: 26px;
   }
 }
 
@@ -68,8 +86,8 @@
   &__text {
     font-family: "Six Caps", sans-serif;
     font-weight: 400;
-    letter-spacing: 3px;
-    font-size: 28px;
+    letter-spacing: 2px;
+    font-size: 26px;
   }
 }
 
@@ -80,8 +98,8 @@
   &__text {
     font-family: "Six Caps", sans-serif;
     font-weight: 400;
-    letter-spacing: 3px;
-    font-size: 28px;
+    letter-spacing: 2px;
+    font-size: 26px;
   }
 }
 

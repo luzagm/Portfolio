@@ -1,32 +1,8 @@
 @import "core/reset";
+@import "layouts/header";
 
-.about {
-  &__section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  &__picture__box {
-    background-color: black;
-    height: 280px;
-    width: 280px;
-    margin-bottom: 5px;
-  }
-
-  &__picture {
-    height: 100%;
-  }
-
-  &__name {
-    margin-bottom: 25px;
-  }
-
-  &__description {
-    width: 300px;
-    text-align: center;
-    line-height: 25px;
-    margin-bottom: 10px;
-  }
+.main__wrapper {
+  background: linear-gradient(#6d756a, #d9e3da);
 }
+
+@import "layouts/about";

@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0;
+
+  &__home {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px 0;
+
+    &__icon {
+      display: block;
+      padding-right: 5px;
+      width: 40px;
+      height: 6px;
+    }
+
+    &__text {
+      font-family: "Six Caps", sans-serif;
+      font-weight: 400;
+      letter-spacing: 3px;
+      font-size: 26px;
+    }
+  }
+
+  &__logo {
+    width: 42px;
+    height: 42px;
+  }
+
+  &__logo__img {
+    height: 100%;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px 0;
+
+    &__icon {
+      display: block;
+      padding-left: 5px;
+      width: 40px;
+      height: 6px;
+    }
+    &__text {
+      font-family: "Six Caps", sans-serif;
+      font-weight: 400;
+      letter-spacing: 3px;
+      font-size: 26px;
+    }
+  }
+}

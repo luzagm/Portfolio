@@ -4,37 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="./assets/images/favicon.jpg" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Gayathri|Six+Caps&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Caslon+Display|Playfair+Display|Spectral&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
-    <section class="about__section">
-      <div class="about__picture__box">
-        <img src="./assets/images/kimono.jpg" class="about__picture" />
-      </div>
-      <h2 class="about__name">Luz Aguirre</h2>
-      <p class="about__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cumque
-        sed enim cupiditate voluptatibus quis deleniti modi a temporibus dolor
-        sint fuga rem, laudantium voluptatum consequatur soluta error libero.
-
-      </p>
-      <p class="about__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cumque
-        sed enim cupiditate voluptatibus quis deleniti modi a temporibus dolor
-        sint fuga rem, laudantium voluptatum consequatur soluta error libero.
-
-      </p>
-      <p class="about__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cumque
-        sed enim cupiditate voluptatibus quis deleniti modi a temporibus dolor
-        sint fuga rem, laudantium voluptatum consequatur soluta error libero.
-
-      </p>
-    </section>
-
-    <section class="projects"></section>
-
-    <section class="contact"></section>
+    <partial src="_header.html"></partial>
+    <div class="main__wrapper">
+      <partial src="_about.html"></partial>
+      <partial src="_projects.html"></partial>
+      <section class="contact"></section>
+    </div>
   </body>
 </html>

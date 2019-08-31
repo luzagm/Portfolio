@@ -7,29 +7,25 @@
       padding: 0;
 
       &__about {
-        display: block;
         width: 70px;
-        height: 7px;
       }
 
       &__projects {
         display: block;
         position: relative;
         top: 0;
-        width: 7px;
+        width: 6px;
         height: 35px;
       }
 
       &__contact {
-        display: block;
         width: 70px;
-        height: 7px;
       }
     }
 
     &__title {
       display: block;
-      top: 50px;
+      top: 60px;
     }
 
     &__name {
@@ -37,7 +33,19 @@
     }
 
     &__job {
-      font-size: 46px;
+      font-size: 50px;
+    }
+
+    &__logo__box {
+      position: absolute;
+      bottom: 35px;
+      left: 70px;
+      width: 80px;
+      height: 80px;
+    }
+
+    &__logo {
+      height: 100%;
     }
   }
 
@@ -45,12 +53,12 @@
     padding-top: 32px;
 
     &__text {
-      padding: 0 15px;
+      padding: 0 8px;
       font-size: 32px;
     }
 
     &__text:hover {
-      color: rgb(228, 0, 0);
+      color: rgb(200, 0, 40);
     }
   }
 
@@ -61,7 +69,7 @@
     }
 
     &__text:hover {
-      color: rgb(228, 0, 0);
+      color: rgb(200, 0, 40);
     }
   }
 
@@ -69,12 +77,12 @@
     padding-top: 32px;
 
     &__text {
-      padding: 0 15px;
+      padding: 0 8px;
       font-size: 32px;
     }
 
     &__text:hover {
-      color: rgb(228, 0, 0);
+      color: rgb(200, 0, 40);
     }
   }
 }
