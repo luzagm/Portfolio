@@ -1,0 +1,90 @@
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  height: 100vh;
+}
+
+.contact__title {
+  font-family: "Six Caps", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 36px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+
+    &__text {
+      box-sizing: border-box;
+      height: 50px;
+      width: 90vw;
+      padding: 0 5px;
+      border: 0px solid;
+      border-bottom: 1px solid black;
+      background: transparent;
+      font-family: "Spectral", serif;
+      font-size: 16px;
+    }
+
+    &__message {
+      box-sizing: border-box;
+      height: 190px;
+      width: 90vw;
+      padding: 0 5px;
+      border: 0px solid;
+      border-bottom: 1px solid black;
+      background: transparent;
+      font-family: "Spectral", serif;
+      font-size: 16px;
+    }
+  }
+
+  .submit__button {
+    margin: 5px;
+    height: 42px;
+    width: 150px;
+    border: 1px solid rgb(200, 0, 40);
+    background: rgb(200, 0, 40);
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+  }
+
+  .form__group {
+    position: relative;
+    margin: 20px auto;
+  }
+
+  label {
+    color: #777;
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.3s ease all;
+  }
+
+  input:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(200, 0, 40);
+    transition: 0.3s ease all;
+
+    + label {
+      top: -15px;
+      font-size: 14px;
+      color: rgb(200, 0, 40);
+    }
+  }
+}

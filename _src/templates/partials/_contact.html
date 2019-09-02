@@ -1,31 +1,72 @@
-<section>
-    
-    <div>
-        <h2 id="contact">
-            contact
-        </h2>
-    </div>
-    <form>
-        <div>
-        <label for="name">Name <span class="required">*</span>
-        </label>
-        <input id="name" type="text">
-    </div>
-    <div>
-        <label for="lastname">Lastname</label>
-        <input id="lastname" type="text">
-    </div>
+<section class="contact__form">
+  <div>
+    <h2 id="contact" class="contact__title">
+      contact
+    </h2>
+  </div>
+  <form class="form">
 
-    <div>
-            <label for="lastname">Lastname</label>
-            <input id="lastname" type="text">
+    <div class="form__info__wrapper">
+
+      <div class="form__info">
+        
+        <div class="form__group">
+          
+          <input
+            id="name"
+            class="form__info__text"
+            type="text"
+            name="yourname"
+            required
+          />
+          <label class="label__txt" for="name">Your Name *</label>
         </div>
-
+        <div class="form__group">
+          
+          <input
+            id="lastname"
+            class="form__info__text"
+            type="text"
+            name="yourlastname"
+            required
+          />
+          <label class="label__txt" for="lastname">Your Lastname *</label>
+        </div>
+        <div class="form__group">
+         
+          <input
+            id="email"
+            class="form__info__text"
+            type="email"
+            name="youremail"
+            required
+          /> <label class="label__txt" for="email">Your Email *</label>
+        </div>
+        <div class="form__group">
+          
+          <input
+            id="phone"
+            class="form__info__text"
+            name="yourphone"
+            type="tel"
+          />
+          <label class="label__txt" for="phone">Your Phone</label>
+        </div>
+      </div>
+      <div class="form__group">
+        
+        <input
+          id="message"
+          class="form__info__message"
+          type="text"
+          name="yourmessage"
+          required
+        />
+        <label class="label__txt" for="message">Your Message*</label>
+      </div>
+    </div>
     <div>
-    <label for="mail">Email <span class="required">*</span>
-    </label>
-    <input id="mail" type="email">
-</div>
-    </form>
-
+      <input type="submit" class="submit__button" value="Send message" />
+    </div>
+  </form>
 </section>
