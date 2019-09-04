@@ -3,12 +3,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 2px 0;
+  background-color: white;
 
   &__home {
     display: flex;
     align-items: center;
-    background-color: white;
-    padding: 15px 0;
 
     &__icon {
       display: block;

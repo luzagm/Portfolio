@@ -3,8 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 10px;
-  height: 100vh;
+  padding: 30px 0;
 }
 
 .contact__title {
@@ -26,10 +25,10 @@
     &__text {
       box-sizing: border-box;
       height: 50px;
-      width: 90vw;
+      width: 80vw;
       padding: 0 5px;
       border: 0px solid;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid $color-primary;
       background: transparent;
       font-family: "Spectral", serif;
       font-size: 16px;
@@ -38,10 +37,10 @@
     &__message {
       box-sizing: border-box;
       height: 190px;
-      width: 90vw;
+      width: 80vw;
       padding: 0 5px;
       border: 0px solid;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid $color-primary;
       background: transparent;
       font-family: "Spectral", serif;
       font-size: 16px;
@@ -52,8 +51,8 @@
     margin: 5px;
     height: 42px;
     width: 150px;
-    border: 1px solid rgb(200, 0, 40);
-    background: rgb(200, 0, 40);
+    border: 1px solid $color-secondary;
+    background: $color-secondary;
     font-family: "Spectral", serif;
     font-weight: 400;
     font-size: 18px;
@@ -66,7 +65,7 @@
   }
 
   label {
-    color: #777;
+    color: $color-dark-grey;
     font-family: "Spectral", serif;
     font-weight: 400;
     font-size: 18px;
@@ -78,13 +77,57 @@
 
   input:focus {
     outline: none;
-    border-bottom: 1px solid rgb(200, 0, 40);
+    border-bottom: 1px solid $color-secondary;
     transition: 0.3s ease all;
+  }
 
-    + label {
-      top: -15px;
-      font-size: 14px;
-      color: rgb(200, 0, 40);
+  input:focus + label,
+  input:valid + label {
+    top: -15px;
+    font-size: 14px;
+    color: $color-secondary;
+    transition: 0.6s ease all;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .contact__form {
+    padding: 60px 30px;
+  }
+  .contact__title {
+    font-size: 40px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__info {
+      &__text {
+        width: 60vw;
+        font-size: 20px;
+      }
+
+      &__message {
+        width: 60vw;
+        font-size: 20px;
+      }
     }
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  input:focus + label,
+  input:valid + label {
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .contact__title {
+    font-size: 45px;
   }
 }
