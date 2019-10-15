@@ -6,18 +6,7 @@ const modal = document.getElementById("myModal");
 const openModalBtn = document.getElementById("modal-trigger");
 const closeModalBtn = document.querySelector(".js-close-button");
 
-//Input
-// function labelChange(ev) {
-//   const inputValue = ev.currentTarget.value;
-
-//   if (inputValue === "") {
-//     label.classList.contains("label__txt");
-//   } else {
-//     label.classList.add("validInput");
-//   }
-// }
-
-// Modal
+// Contact modal
 function openModal(ev) {
   ev.preventDefault();
   if (input.value !== "") {
