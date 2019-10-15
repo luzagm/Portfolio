@@ -1,0 +1,44 @@
+@media all and (min-width: 768px) {
+  .projects {
+    &__wrapper {
+      justify-content: center;
+      min-height: 85vh;
+      padding-top: 90px;
+    }
+
+    &__title {
+      font-size: 40px;
+    }
+
+    &__box__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+    }
+  }
+
+  .projects__box {
+    background-color: $color-primary;
+    margin: 10px;
+    height: 230px;
+    width: 350px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .projects {
+    /*  &__wrapper {
+      height: 70vh;
+    } */
+
+    &__title {
+      font-size: 45px;
+    }
+
+    &__box__wrapper {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}

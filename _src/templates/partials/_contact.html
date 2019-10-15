@@ -1,72 +1,83 @@
 <section class="contact__form">
   <div>
     <h2 id="contact" class="contact__title">
-      contact
+      contacto
     </h2>
   </div>
-  <form class="form">
-
+  <form class="form" action="/signup" method="post">
     <div class="form__info__wrapper">
-
       <div class="form__info">
-        
         <div class="form__group">
-          
           <input
             id="name"
-            class="form__info__text"
+            class="write__area form__info__text js-input"
             type="text"
             name="yourname"
             required
           />
-          <label class="label__txt" for="name">Your Name *</label>
+          <label class="label__txt" for="name">Nombre *</label>
         </div>
         <div class="form__group">
-          
           <input
             id="lastname"
-            class="form__info__text"
+            class="write__area form__info__text js-input"
             type="text"
             name="yourlastname"
             required
           />
-          <label class="label__txt" for="lastname">Your Lastname *</label>
+          <label class="label__txt" for="lastname">Apellidos *</label>
         </div>
         <div class="form__group">
-         
           <input
             id="email"
-            class="form__info__text"
+            class="write__area form__info__text js-input"
             type="email"
             name="youremail"
             required
-          /> <label class="label__txt" for="email">Your Email *</label>
+          />
+          <label class="label__txt" for="email">Email *</label>
         </div>
-        <div class="form__group">
-          
+        <!-- <div class="form__group">
           <input
             id="phone"
-            class="form__info__text"
+            class="write__area form__info__text js-input"
             name="yourphone"
             type="tel"
           />
           <label class="label__txt" for="phone">Your Phone</label>
-        </div>
+        </div> -->
       </div>
       <div class="form__group">
-        
-        <input
+        <textarea
           id="message"
-          class="form__info__message"
-          type="text"
+          class="write__area form__info__message js-input"
           name="yourmessage"
           required
-        />
-        <label class="label__txt" for="message">Your Message*</label>
+        ></textarea>
+        <label class="label__txt" for="message">Mensaje *</label>
       </div>
     </div>
     <div>
-      <input type="submit" class="submit__button" value="Send message" />
+      <button id="modal-trigger" type="submit" class="submit__button" value="Enviar">
+        Enviar
+      </button>
     </div>
   </form>
+
+
+   <div id="myModal" class="modal is-hidden">
+    <div class="modal__background">
+    <div class="modal__container">
+       <div class="close__button js-close-button">&times;</div>
+     <div class="modal__content">
+        <p class="modal__text">Tu mensaje ha sido enviado con éxito.</p>
+        <p class="modal__text">
+          Me pondré en contacto contigo lo antes posible.
+        </p>
+        <br />
+        <p class="modal__text"><em>Arigatou!</em></p>
+     
+    </div>
+    </div> 
+    </div>
 </section>

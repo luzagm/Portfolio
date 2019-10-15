@@ -1,11 +1,11 @@
 @import "core/reset";
 @import "core/variables";
 @import "layouts/header";
+@import "layouts/about";
+@import "layouts/projects";
+@import "layouts/contact";
+@import "layouts/footer";
 
 .main__wrapper {
   background: linear-gradient($color-dark-grey, $color-light-grey);
 }
-
-@import "layouts/about";
-@import "layouts/projects";
-@import "layouts/contact";

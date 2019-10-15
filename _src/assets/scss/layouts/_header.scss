@@ -1,9 +1,13 @@
 .header {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2px 0;
   background-color: white;
+  padding: 15px 0;
 
   &__home {
     display: flex;
@@ -37,7 +41,6 @@
     display: flex;
     align-items: center;
     background-color: white;
-    padding: 15px 0;
 
     &__icon {
       display: block;
