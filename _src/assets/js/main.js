@@ -1,14 +1,13 @@
 "use strict";
 
 const input = document.querySelector(".js-input");
-const = document.querySelector(".label__txt");
 const modal = document.getElementById("myModal");
 const openModalBtn = document.getElementById("modal-trigger");
 const closeModalBtn = document.querySelector(".js-close-button");
 
 // Contact modal
-function openModal(ev) {
-  ev.preventDefault();
+function openModal() {
+  // ev.preventDefault();
   if (input.value !== "") {
     modal.classList.remove("is-hidden");
   }
