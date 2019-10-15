@@ -1,7 +1,7 @@
 "use strict";
 
 const input = document.querySelector(".js-input");
-const label = document.querySelector(".label__txt");
+const = document.querySelector(".label__txt");
 const modal = document.getElementById("myModal");
 const openModalBtn = document.getElementById("modal-trigger");
 const closeModalBtn = document.querySelector(".js-close-button");
