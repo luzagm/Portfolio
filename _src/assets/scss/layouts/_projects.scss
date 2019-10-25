@@ -78,21 +78,24 @@
   transition: all 0.2s linear;
 }
 
-.projects__box button.info {
+.projects__box a.info {
+  display: inline-block;
   margin: 5px;
-  height: 35px;
-  width: 120px;
+  padding: 3px 0;
+  height: 26px;
+  width: 110px;
   border: 1px solid $color-primary;
+  border-radius: 8px;
   background: $color-primary;
   font-family: "Spectral", serif;
   font-weight: 400;
-  font-size: 16px;
   color: white;
   text-transform: uppercase;
   box-shadow: 0 0 1px #000;
   cursor: pointer;
   opacity: 0;
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
 }
 
 .projects__box:hover .mask {
@@ -101,7 +104,7 @@
 
 .projects__box:hover h2,
 .projects__box:hover p,
-.projects__box:hover button.info {
+.projects__box:hover a.info {
   opacity: 1;
   transform: translate(0px);
 }
@@ -110,11 +113,11 @@
   transition-delay: 0.1s;
 }
 
-.projects__box:hover button.info {
+.projects__box:hover a.info {
   transition-delay: 0.2s;
 }
 
-.projects__box button.info:hover {
+.projects__box a.info:hover {
   box-shadow: 0 0 5px #000;
 }
 

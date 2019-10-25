@@ -35,8 +35,8 @@
   }
 
   .projects__box .mask {
-    height: 190px;
-    width: 365px;
+    height: 180px;
+    width: 355px;
     position: absolute;
     top: 0;
     left: 0;
@@ -45,62 +45,13 @@
     transition: all 0.4s ease-in-out;
   }
 
-  .projects__box img {
-    display: block;
-    position: relative;
-  }
-
-  .projects__box h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    font-family: "Spectral", seri;
-    font-weight: 400;
-    font-size: 20px;
-    padding: 8px;
-    background: $color-primary;
-    margin-top: 8px;
-    transform: translateY(-100px);
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-  }
-
-  .projects__box p {
-    font-family: "Spectral", serif;
-    position: relative;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    font-size: 12px;
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all 0.2s linear;
-  }
-
-  .projects__box button.info {
-    margin: 5px;
-    height: 35px;
-    width: 120px;
-    border: 1px solid $color-primary;
-    background: $color-primary;
-    font-family: "Spectral", serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000;
-    cursor: pointer;
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-  }
-
   .projects__box:hover .mask {
     opacity: 1;
   }
 
   .projects__box:hover h2,
   .projects__box:hover p,
-  .projects__box:hover button.info {
+  .projects__box:hover a.info {
     opacity: 1;
     transform: translate(0px);
   }
@@ -109,11 +60,11 @@
     transition-delay: 0.1s;
   }
 
-  .projects__box:hover button.info {
+  .projects__box:hover a.info {
     transition-delay: 0.2s;
   }
 
-  .projects__box button.info:hover {
+  .projects__box a.info:hover {
     box-shadow: 0 0 5px #000;
   }
 }
@@ -147,8 +98,9 @@
     font-size: 18px;
   }
 
-  .projects__box button.info {
-    height: 42px;
+  .projects__box a.info {
+    padding: 5px 0;
+    height: 30px;
     width: 150px;
     font-size: 18px;
   }
