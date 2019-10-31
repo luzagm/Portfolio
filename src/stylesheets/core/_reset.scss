@@ -1,0 +1,15 @@
+@import "core/variables";
+
+* {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background: linear-gradient($color-dark-grey, $color-light-grey);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

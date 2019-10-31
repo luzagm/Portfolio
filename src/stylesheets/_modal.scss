@@ -1,0 +1,107 @@
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  &__background {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    padding: 20px 0 20px 20px;
+  }
+
+  &__whiteicon {
+    display: block;
+    padding-left: 5px;
+    width: 50px;
+    height: 6px;
+  }
+
+  &__text {
+    padding: 0 5px;
+    font-family: "Six Caps", sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 26px;
+  }
+
+  &__close--btn {
+    font-family: "Six Caps", sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+@media all and (min-width: 678px) {
+  .modal {
+    &__background {
+      padding: 15px 0 15px 60px;
+    }
+    &__whiteicon {
+      width: 70px;
+    }
+
+    &__text {
+      padding: 0 10px;
+      font-size: 32px;
+
+      &--separador {
+        padding: 0 10px;
+        font-size: 32px;
+      }
+    }
+  }
+
+  .modal__text {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  .modal__text:before,
+  span:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+
+  .modal__text:before {
+    left: -2.5px;
+  }
+  .modal__text:after {
+    right: 2.5px;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .modal__text:hover:before {
+    background: #fff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .modal__text:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+}

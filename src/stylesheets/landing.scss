@@ -1,0 +1,137 @@
+@import "core/reset";
+
+.landing {
+  background-image: url("../images/background-image.png");
+  background-size: cover;
+  background-position: 61%;
+  height: 100vh;
+
+  &__logo {
+    &--box {
+      width: 42px;
+      height: 42px;
+    }
+
+    &--img {
+      height: 100%;
+    }
+  }
+
+  &__header {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+    &--contactbar {
+      display: block;
+      padding-right: 2px;
+      width: 40px;
+      height: 6px;
+    }
+
+    &--menubar {
+      display: block;
+      padding-left: 2px;
+      width: 40px;
+      height: 6px;
+    }
+  }
+
+  &__main {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-family: "Six Caps", sans-serif;
+    letter-spacing: 2px;
+
+    &--name {
+      font-weight: 400;
+      font-size: 70px;
+    }
+
+    &--job {
+      font-weight: 400;
+      font-size: 36px;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 26px;
+  }
+}
+
+.menu {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  &__text {
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 26px;
+  }
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  &__background {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    padding: 20px 0 20px 20px;
+  }
+
+  &__whiteicon {
+    display: block;
+    padding-left: 5px;
+    width: 50px;
+    height: 6px;
+  }
+
+  &__text {
+    padding: 0 5px;
+    font-family: "Six Caps", sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 26px;
+
+    &--bars {
+      padding: 0 5px;
+      font-family: "Six Caps", sans-serif;
+      letter-spacing: 1px;
+      color: white;
+      font-size: 26px;
+    }
+  }
+}
+
+.is-hidden {
+  display: none;
+}
+
+@import "landing-mediaq";

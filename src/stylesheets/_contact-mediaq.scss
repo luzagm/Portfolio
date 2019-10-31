@@ -1,0 +1,21 @@
+@media all and (min-width: 768px) {
+  .contact__form {
+    min-height: 70vh;
+    padding-top: 90px;
+  }
+
+  .contact__container {
+    text-align: center;
+    width: 60vw;
+  }
+
+  .contact__title {
+    font-size: 40px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .contact__title {
+    font-size: 46px;
+  }
+}

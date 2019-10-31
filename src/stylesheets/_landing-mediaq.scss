@@ -1,0 +1,61 @@
+@media all and (min-width: 768px) {
+  .landing {
+    &__logo {
+      &--box {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    &__header {
+      padding: 20px 0;
+      background-color: transparent;
+
+      &--contactbar {
+        width: 70px;
+      }
+
+      &--menubar {
+        width: 70px;
+      }
+    }
+
+    &__main {
+      display: block;
+      top: 100px;
+
+      &--name {
+        font-size: 120px;
+      }
+
+      &--job {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .contact__text {
+    letter-spacing: 3px;
+    font-size: 32px;
+  }
+
+  .menu__text {
+    letter-spacing: 3px;
+    font-size: 32px;
+  }
+
+  div.text__effect p:before {
+    position: absolute;
+    color: rgb(200, 0, 40);
+    overflow: hidden;
+    content: attr(alt);
+    transition: all 0.5s;
+    transform: scale(0.7);
+    opacity: 0;
+  }
+
+  div.text__effect p:hover:before {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

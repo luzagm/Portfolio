@@ -1,0 +1,60 @@
+.skills {
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 70px 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 36px;
+  }
+
+  &__subtitle {
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 26px;
+  }
+
+  &__text {
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 25px;
+    /* font-family: "Pavanam", sans-serif; */
+    font-family: "Gafata", sans-serif;
+    /*  font-family: "Belleza", sans-serif; */
+    /* font-family: "Encode Sans Condensed", sans-serif; */
+    /*       font-family: "Arsenal", sans-serif; */
+  }
+}
+
+.tools {
+  &__container {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px;
+    grid-gap: 20px;
+    justify-items: center;
+  }
+
+  &__img {
+    height: 80px;
+  }
+}
+
+@import "skills-mediaq";
