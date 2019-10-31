@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4db61a84.chunk.css",
+    "main.js": "./static/js/main.fffbc578.chunk.js",
+    "main.js.map": "./static/js/main.fffbc578.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.9dc84051.js",
+    "runtime-main.js.map": "./static/js/runtime-main.9dc84051.js.map",
+    "static/js/2.a08db424.chunk.js": "./static/js/2.a08db424.chunk.js",
+    "static/js/2.a08db424.chunk.js.map": "./static/js/2.a08db424.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.34531d4654b4ab99a7256f391038db9c.js": "./precache-manifest.34531d4654b4ab99a7256f391038db9c.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.4db61a84.chunk.css.map": "./static/css/main.4db61a84.chunk.css.map",
+    "static/media/Ai.svg": "./static/media/Ai.93ceeb6a.svg",
+    "static/media/Atlas.png": "./static/media/Atlas.075d4657.png",
+    "static/media/AwesomeProfileCards.png": "./static/media/AwesomeProfileCards.3d852ca1.png",
+    "static/media/BuscadorDeSeries.png": "./static/media/BuscadorDeSeries.0f441944.png",
+    "static/media/ExamenModulo1.png": "./static/media/ExamenModulo1.1b6b92a0.png",
+    "static/media/LiquidSquad.png": "./static/media/LiquidSquad.1463a1b0.png",
+    "static/media/Lr.svg": "./static/media/Lr.95bd33d3.svg",
+    "static/media/Ps.svg": "./static/media/Ps.44676395.svg",
+    "static/media/RickAndMorty.png": "./static/media/RickAndMorty.f9333e2f.png",
+    "static/media/autocad.png": "./static/media/autocad.2b0266af.png",
+    "static/media/App.scss": "./static/media/background-image.b29ff4c7.png",
+    "static/media/css.png": "./static/media/css.03e6cda8.png",
+    "static/media/gimp.png": "./static/media/gimp.9377a8f6.png",
+    "static/media/github.png": "./static/media/github.3e54ed15.png",
+    "static/media/gulp.png": "./static/media/gulp.e8273826.png",
+    "static/media/hikari.png": "./static/media/hikari.6e252577.png",
+    "static/media/html.png": "./static/media/html.b19ceb33.png",
+    "static/media/js.png": "./static/media/js.5c1ebca0.png",
+    "static/media/kimono.jpg": "./static/media/kimono.b2c6af6e.jpg",
+    "static/media/react.png": "./static/media/react.068e5313.png",
+    "static/media/revit.png": "./static/media/revit.7bba9506.png",
+    "static/media/sass.png": "./static/media/sass.a84d40fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9dc84051.js",
+    "static/js/2.a08db424.chunk.js",
+    "static/css/main.4db61a84.chunk.css",
+    "static/js/main.fffbc578.chunk.js"
+  ]
+}
