@@ -67,7 +67,7 @@ const Projects = () => {
         <div className="projects__box">
           <img className="projects__box--image" src={series} alt="" />
           <div className="mask">
-            <h2>Buscados de series</h2>
+            <h2>Buscador de series</h2>
             <p>
               <span>
                 <strong>Javascript</strong> || <strong>Eventos</strong> ||
