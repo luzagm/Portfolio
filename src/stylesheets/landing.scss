@@ -64,6 +64,8 @@
   align-items: center;
 
   &__landingtext {
+    display: inline-block;
+    width: 100px;
     font-family: "Six Caps", sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
@@ -77,6 +79,9 @@
   align-items: center;
 
   &__landingtext {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
     font-family: "Six Caps", sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
