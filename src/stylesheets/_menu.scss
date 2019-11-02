@@ -51,6 +51,10 @@
   }
 }
 
+.close__btn {
+  height: 20px;
+}
+
 .hidden {
   display: none;
 }
@@ -78,6 +82,10 @@
       padding: 0 10px 0 20px;
       font-size: 32px;
     }
+  }
+
+  .close__btn {
+    height: 25px;
   }
 
   .modal__text {

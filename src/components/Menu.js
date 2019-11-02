@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import CloseBtn from "../images/close.png";
 
 const Menu = props => {
   return (
@@ -32,7 +33,7 @@ const Menu = props => {
           proyectos
         </Link>
         <div className="modal__close--btn" onClick={props.closeMenu}>
-          X
+          <img src={CloseBtn} className="close__btn" alt="" />
         </div>
       </div>
     </div>
