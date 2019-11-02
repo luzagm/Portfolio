@@ -1,11 +1,9 @@
 .about {
-  background: purple;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 70px 00;
 
   &__picture__img {
     height: 350px;

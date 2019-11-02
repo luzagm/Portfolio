@@ -2,10 +2,14 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const Contact = () => {
+const Contact = props => {
   return (
     <React.Fragment>
-      <Header />
+      <Header
+        openModal={props.openModal}
+        closeModal={props.closeModal}
+        showModal={props.showModal}
+      />
       <div className="contact__form">
         <div className="contact__container">
           <h2 id="contact" className="contact__title">
@@ -18,7 +22,7 @@ const Contact = () => {
           <p>GITHUB</p>
           <p>LINKEDIN</p>
           <p>TWITTER</p>
-          <p>MAIL</p>
+          <p>MAIL</p> <i className="icon fa fa-envelope"> </i>
         </div>
       </div>
       <Footer />
