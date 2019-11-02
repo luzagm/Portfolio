@@ -1,8 +1,7 @@
 @media all and (min-width: 768px) {
   .contact {
-    & __form {
+    &__form {
       min-height: 70vh;
-      padding-top: 90px;
     }
     &__container {
       text-align: center;
@@ -15,11 +14,15 @@
     &__text {
       font-size: 18px;
     }
-  }
 
-  .icons {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 150px;
+    &__icons {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 150px 150px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
   }
 
   .icon {

@@ -20,23 +20,43 @@ const Contact = props => {
             proyecto en el quieres que colaboremos, no dudes en contactarme.
           </p>
 
-          <div className="icons">
-            <div className="icon__wrapper">
+          <div className="contact__icons">
+            <a
+              href="https://github.com/luzagm"
+              target="blank"
+              className="contact__link"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github-alt icon"></i>
-              <p>GITHUB</p>
-            </div>
-            <div className="icon__wrapper">
+              <p className="contact__text">@luzagm</p>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/luzaguirremorales/"
+              target="blank"
+              className="contact__link"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-linkedin icon"></i>
-              <p>LINKEDIN</p>
-            </div>
-            <div className="icon__wrapper">
+              <p className="contact__text">@luzaguirremorales</p>
+            </a>
+            <a
+              href="https://twitter.com/light__am"
+              target="blank"
+              className="contact__link"
+            >
               <i class="fab fa-twitter-square icon"></i>
-              <p>TWITTER</p>
-            </div>
-            <div className="icon__wrapper">
+              <p className="contact__text">@light__am</p>
+            </a>
+            <a
+              href="mailto:luz.aguirre.mo@gmail.com"
+              target="blank"
+              className="contact__link"
+              rel="noopener noreferrer"
+            >
               <i className="icon fa fa-envelope"> </i>
-              <p>MAIL</p>
-            </div>
+              <p className="contact__text">luz.aguirre.mo@gmail.com</p>
+            </a>
           </div>
         </div>
       </div>
