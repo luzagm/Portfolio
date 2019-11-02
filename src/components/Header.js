@@ -11,7 +11,7 @@ const Header = props => {
       <div className="header__contact">
         <img className="header__contact--icon" src={LeftBar} alt="" />
         <Link to="/contact">
-          <p className="header__contact--text">contact</p>
+          <p className="header__contact--text">contacto</p>
         </Link>
       </div>
 
