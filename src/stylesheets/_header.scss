@@ -20,6 +20,8 @@
     }
 
     &--text {
+      display: inline-block;
+      width: 100px;
       font-family: "Six Caps", sans-serif;
       font-weight: 400;
       letter-spacing: 3px;
@@ -48,6 +50,9 @@
       height: 6px;
     }
     &--text {
+      display: inline-block;
+      width: 100px;
+      text-align: right;
       font-family: "Six Caps", sans-serif;
       font-weight: 400;
       letter-spacing: 3px;
