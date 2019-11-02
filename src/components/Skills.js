@@ -24,11 +24,11 @@ const Skills = () => {
           <div className="skills__programmer">
             <h3 className="skills__subtitle">soy programadora</h3>
             <p className="skills__text">
-              Como desarrolladora Front End suelo (y me encanta) trabajar con
-              Javascript y ReactJs. Actualmente estoy formandome también en
-              JQuery, Redux y aprendiendo algo sobre Hooks. Y no nos olvidemos
-              de la maquetación con Sass, CSS y sus amigos Flexbox, Grid y
-              Bootstrap para dejar tu web o app perfecta y funcional.
+              Como desarrolladora frontend suelo trabajar con Javascript y
+              ReactJs. Actualmente estoy formandome también en JQuery, Redux y
+              aprendiendo algo sobre Hooks. Y no nos olvidemos de la maquetación
+              con Sass, CSS y sus amigos Flexbox, Grid y Bootstrap para dejar tu
+              web o app perfecta y funcional.
             </p>
           </div>
 
@@ -36,9 +36,10 @@ const Skills = () => {
             <h3 className="skills__subtitle">y también diseñadora</h3>
             <p className="skills__text">
               Como diseñadora de interiores (con amplios conocimientos de diseño
-              gráfico) me siento cómoda trabajando con herramientas tales como
-              AutoCad, Revit Building y Photoshop, pero también tengo
-              conocimientos de Illustrator, InDesign y Gimp.
+              gráfico por gusto y por necesidad) me siento cómoda trabajando con
+              herramientas tales como AutoCad, Revit Building y Photoshop, pero
+              también tengo conocimientos de Illustrator, InDesign y Gimp, entre
+              otros.
             </p>
           </div>
         </div>

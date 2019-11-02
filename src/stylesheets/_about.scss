@@ -1,13 +1,17 @@
+@import "core/variables";
+
 .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   padding-top: 80px;
 
   &__picture__img {
     height: 350px;
     width: 350px;
+    border-radius: 50%;
   }
 
   &__section {
@@ -37,6 +41,10 @@
       /*   font-family: "Belleza", sans-serif; */
       /* font-family: "Encode Sans Condensed", sans-serif; */
       /* font-family: "Arsenal", sans-serif; */
+    }
+
+    &__text {
+      padding-bottom: 10px;
     }
   }
 }

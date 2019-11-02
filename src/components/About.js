@@ -1,5 +1,5 @@
 import React from "react";
-import Me from "../images/kimono.jpg";
+import Me from "../images/fotoyo.jpg";
 
 const About = () => {
   return (
@@ -11,23 +11,28 @@ const About = () => {
 
           <div className="about__me__description">
             <p className="about__me__text">
-              Diseñadora de formación, aventurera de corazón y ahora también
-              desarrolladora Front End.
+              Mallorquina actualmente asentada en Madrid. Diseñadora de
+              formación, aventurera de corazón y ahora también desarrolladora
+              frontend.
             </p>
             <p className="about__me__text">
-              Inconformista, inquieta y curiosa. Los nuevos retos no me dan
-              miedo, siempre me enfrento a ellos con ganas de superarme y de
-              aprender, ya sea vivir en el extranjero, hacer una ruta de 12h en
-              montaña, saltar en textacaídas o aprender programación.
+              Inconformista, inquieta y curiosa, preparada siempre para
+              enfrentarme a nuevos retos - Ya sea vivir en el extranjero, hacer
+              una ruta de 12h en montaña o saltar en paracaídas.
             </p>
-            <p className="about__me__par">
-              Amante de los animales y dibujante de manga. Mi segundo idioma es
-              el inglés y el tercero sería el sarcasmo. Me encanta que mis
-              compañeros vean en mí fortaleza y apoyo incondicional en el ámbito
-              laboral, pero si les preguntases por el personal seguramente me
-              definirían como la loca de los gatos obsesionada con Japón a la
-              que le apasiona viajar -{" "}
-              <em>¡Porque no todo en esta vida es trabajar!</em>
+            <p className="about__me__text">
+              La programación me ha abierto las puertas a un mundo fascinante y
+              me siento muy orgullosa de haber tenido el valor de dar este
+              enorme paso para reinventarme. Meticulosa y profesional con muchas
+              ganas de seguir aprendiendo y creciendo dentro del sector
+              tecnológico.
+            </p>
+            <p className="about__me__text">
+              Mis compañeros me suelen describir como fortaleza y apoyo
+              incondicional en el ámbito laboral, pero si les preguntases por el
+              personal seguramente me definirían como la amante de los animales
+              obsesionada con Japón a la que le apasiona viajar y dibujar manga
+              en sus ratos libres.
             </p>
           </div>
         </div>

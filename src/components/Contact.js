@@ -22,16 +22,6 @@ const Contact = props => {
 
           <div className="contact__icons">
             <a
-              href="https://github.com/luzagm"
-              target="blank"
-              className="contact__link"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-github-alt icon"></i>
-              <p className="contact__text">@luzagm</p>
-            </a>
-
-            <a
               href="https://www.linkedin.com/in/luzaguirremorales/"
               target="blank"
               className="contact__link"
@@ -39,6 +29,15 @@ const Contact = props => {
             >
               <i className="fab fa-linkedin icon"></i>
               <p className="contact__text">@luzaguirremorales</p>
+            </a>
+            <a
+              href="https://github.com/luzagm"
+              target="blank"
+              className="contact__link"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github-alt icon"></i>
+              <p className="contact__text">@luzagm</p>
             </a>
             <a
               href="https://twitter.com/light__am"
