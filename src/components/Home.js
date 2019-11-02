@@ -12,7 +12,7 @@ const Home = props => {
         <div className="contact text__effect">
           <img className="landing__header--contactbar" src={LeftBar} alt="" />
           <Link to="/contact">
-            <p className="contact__text" alt="contacto">
+            <p className="contact__landingtext" alt="contacto">
               contacto
             </p>
           </Link>
@@ -23,7 +23,7 @@ const Home = props => {
         </div>
 
         <div className="menu text__effect" onClick={props.openMenu}>
-          <p className="menu__text" alt="menu">
+          <p className="menu__landingtext" alt="menu">
             menu
           </p>
           <img className="landing__header--menubar" src={RightBar} alt="" />

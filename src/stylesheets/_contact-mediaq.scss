@@ -1,21 +1,37 @@
 @media all and (min-width: 768px) {
-  .contact__form {
-    min-height: 70vh;
-    padding-top: 90px;
+  .contact {
+    & __form {
+      min-height: 70vh;
+      padding-top: 90px;
+    }
+    &__container {
+      text-align: center;
+      width: 60vw;
+    }
+    &__title {
+      font-size: 40px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
   }
 
-  .contact__container {
-    text-align: center;
-    width: 60vw;
+  .icons {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px;
   }
 
-  .contact__title {
-    font-size: 40px;
+  .icon {
+    font-size: 46px;
   }
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1200px) {
   .contact__title {
     font-size: 46px;
+  }
+  .icon {
+    font-size: 58px;
   }
 }
