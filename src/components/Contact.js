@@ -6,9 +6,9 @@ const Contact = props => {
   return (
     <React.Fragment>
       <Header
-        openModal={props.openModal}
-        closeModal={props.closeModal}
-        showModal={props.showModal}
+        openMenu={props.openMenu}
+        closeMenu={props.closeMenu}
+        showMenu={props.showMenu}
       />
       <div className="contact__form">
         <div className="contact__container">

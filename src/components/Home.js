@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Modal from "./Modal";
+import Menu from "./Menu";
 import LeftBar from "../images/left.png";
 import RightBar from "../images/right.png";
 import Logo from "../images/hikari.png";
@@ -22,7 +22,7 @@ const Home = props => {
           <img className="landing__logo--img" src={Logo} alt="logo" />
         </div>
 
-        <div className="menu text__effect" onClick={props.openModal}>
+        <div className="menu text__effect" onClick={props.openMenu}>
           <p className="menu__text" alt="menu">
             menu
           </p>
@@ -35,7 +35,7 @@ const Home = props => {
         <h2 className="landing__main--job">desarrolladora front-end</h2>
       </div>
 
-      <Modal closeModal={props.closeModal} showModal={props.showModal} />
+      <Menu closeMenu={props.closeMenu} showMenu={props.showMenu} />
     </div>
   );
 };

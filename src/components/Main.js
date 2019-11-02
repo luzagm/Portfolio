@@ -9,9 +9,9 @@ const Main = props => {
   return (
     <React.Fragment>
       <Header
-        openModal={props.openModal}
-        closeModal={props.closeModal}
-        showModal={props.showModal}
+        openMenu={props.openMenu}
+        closeMenu={props.closeMenu}
+        showMenu={props.showMenu}
       />
       <About />
       <Skills />

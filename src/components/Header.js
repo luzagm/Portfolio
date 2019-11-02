@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Modal from "./Modal";
+import Menu from "./Menu";
 import LeftBar from "../images/left.png";
 import RightBar from "../images/right.png";
 import Logo from "../images/hikari.png";
 
 const Header = props => {
-  console.log(props.closeModal);
   return (
     <div className="header">
       <div className="header__contact">
@@ -22,12 +21,12 @@ const Header = props => {
         </Link>
       </div>
 
-      <div className="header__menu" onClick={props.openModal}>
+      <div className="header__menu" onClick={props.openMenu}>
         <p className="header__menu--text">menu</p>
         <img className="header__menu--icon" src={RightBar} alt="" />
       </div>
 
-      <Modal closeModal={props.closeModal} showModal={props.showModal} />
+      <Menu closeMenu={props.closeMenu} showMenu={props.showMenu} />
     </div>
   );
 };

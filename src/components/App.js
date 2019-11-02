@@ -11,42 +11,40 @@ class App extends React.Component {
     this.state = {
       class: "hidden"
     };
-    this.showModal = this.showModal.bind(this);
-    this.hideModal = this.hideModal.bind(this);
-    this.openModal = this.openModal.bind(this);
-    this.closeModal = this.closeModal.bind(this);
+    this.openMenu = this.openMenu.bind(this);
+    this.closeMenu = this.closeMenu.bind(this);
     this.renderHome = this.renderHome.bind(this);
     this.renderMain = this.renderMain.bind(this);
     this.renderContact = this.renderContact.bind(this);
   }
 
-  showModal() {
+  showMenu() {
     this.setState({
       class: "",
       hide: ""
     });
   }
 
-  hideModal() {
+  hideMenu() {
     this.setState({
       class: "hidden"
     });
   }
 
-  openModal() {
-    this.showModal();
+  openMenu() {
+    this.showMenu();
   }
 
-  closeModal() {
-    this.hideModal();
+  closeMenu() {
+    this.hideMenu();
   }
 
   renderHome() {
     return (
       <Home
-        openModal={this.openModal}
-        closeModal={this.closeModal}
-        showModal={this.state.class}
+        openMenu={this.openMenu}
+        closeMenu={this.closeMenu}
+        showMenu={this.state.class}
       />
     );
   }
@@ -55,9 +53,9 @@ class App extends React.Component {
     return (
       <div>
         <Main
-          openModal={this.openModal}
-          closeModal={this.closeModal}
-          showModal={this.state.class}
+          openMenu={this.openMenu}
+          closeMenu={this.closeMenu}
+          showMenu={this.state.class}
         />
       </div>
     );
@@ -67,9 +65,9 @@ class App extends React.Component {
     return (
       <div>
         <Contact
-          openModal={this.openModal}
-          closeModal={this.closeModal}
-          showModal={this.state.class}
+          openMenu={this.openMenu}
+          closeMenu={this.closeMenu}
+          showMenu={this.state.class}
         />
       </div>
     );
