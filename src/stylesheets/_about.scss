@@ -9,8 +9,8 @@
   padding-top: 80px;
 
   &__picture__img {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     border-radius: 50%;
   }
 
@@ -36,11 +36,7 @@
     &__description {
       text-align: justify;
       line-height: 25px;
-      /*  font-family: "Pavanam", sans-serif; */
       font-family: "Gafata", sans-serif;
-      /*   font-family: "Belleza", sans-serif; */
-      /* font-family: "Encode Sans Condensed", sans-serif; */
-      /* font-family: "Arsenal", sans-serif; */
     }
 
     &__text {
