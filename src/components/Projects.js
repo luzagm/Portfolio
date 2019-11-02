@@ -160,7 +160,8 @@ const Projects = () => {
               </span>
               <br />
               Proyecto grupal en el que creamos una aplicación de gestión de
-              vacaciones para Liquid Squad de Accenture.
+              vacaciones para Liquid Squad-Accenture.{" "}
+              <em>(Acceso restringido)</em>.
             </p>
             <a href="https://github.com/luzagm/g-m4-AquaSquad" className="info">
               Código

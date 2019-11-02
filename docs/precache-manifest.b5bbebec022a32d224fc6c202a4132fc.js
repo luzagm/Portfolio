@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2add6b5a2afbd7e6c79a8e33cc1c272",
+    "revision": "449be7e597b63e192b0e85c93a9e6caf",
     "url": "./index.html"
   },
   {
-    "revision": "8a8e4f2106ac8c5da43c",
+    "revision": "9cb14aae6d8e9c063a34",
     "url": "./static/css/main.928bcee2.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.eb25155a.chunk.js"
   },
   {
-    "revision": "8a8e4f2106ac8c5da43c",
-    "url": "./static/js/main.0f35b1fb.chunk.js"
+    "revision": "9cb14aae6d8e9c063a34",
+    "url": "./static/js/main.6056af72.chunk.js"
   },
   {
     "revision": "c272b26b1e1cf33ad3b4",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/ExamenModulo1.1b6b92a0.png"
   },
   {
-    "revision": "1463a1b00b1ece366ccc9ffe67742a17",
-    "url": "./static/media/LiquidSquad.1463a1b0.png"
+    "revision": "26ff98c7ae3a0bab67b5a8751a530356",
+    "url": "./static/media/LiquidSquad.26ff98c7.png"
   },
   {
     "revision": "95bd33d3c86da31b0ff8293b00b49fbf",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.928bcee2.chunk.css",
-    "main.js": "./static/js/main.0f35b1fb.chunk.js",
-    "main.js.map": "./static/js/main.0f35b1fb.chunk.js.map",
+    "main.js": "./static/js/main.6056af72.chunk.js",
+    "main.js.map": "./static/js/main.6056af72.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.9dc84051.js",
     "runtime-main.js.map": "./static/js/runtime-main.9dc84051.js.map",
     "static/js/2.eb25155a.chunk.js": "./static/js/2.eb25155a.chunk.js",
     "static/js/2.eb25155a.chunk.js.map": "./static/js/2.eb25155a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a262a2692acbd5b2f59e0bceec4e956e.js": "./precache-manifest.a262a2692acbd5b2f59e0bceec4e956e.js",
+    "precache-manifest.b5bbebec022a32d224fc6c202a4132fc.js": "./precache-manifest.b5bbebec022a32d224fc6c202a4132fc.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.928bcee2.chunk.css.map": "./static/css/main.928bcee2.chunk.css.map",
     "static/media/Ai.svg": "./static/media/Ai.93ceeb6a.svg",
@@ -16,7 +16,7 @@
     "static/media/AwesomeProfileCards.png": "./static/media/AwesomeProfileCards.3d852ca1.png",
     "static/media/BuscadorDeSeries.png": "./static/media/BuscadorDeSeries.0f441944.png",
     "static/media/ExamenModulo1.png": "./static/media/ExamenModulo1.1b6b92a0.png",
-    "static/media/LiquidSquad.png": "./static/media/LiquidSquad.1463a1b0.png",
+    "static/media/LiquidSquad.png": "./static/media/LiquidSquad.26ff98c7.png",
     "static/media/Lr.svg": "./static/media/Lr.95bd33d3.svg",
     "static/media/Ps.svg": "./static/media/Ps.44676395.svg",
     "static/media/RickAndMorty.png": "./static/media/RickAndMorty.f9333e2f.png",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.9dc84051.js",
     "static/js/2.eb25155a.chunk.js",
     "static/css/main.928bcee2.chunk.css",
-    "static/js/main.0f35b1fb.chunk.js"
+    "static/js/main.6056af72.chunk.js"
   ]
 }
