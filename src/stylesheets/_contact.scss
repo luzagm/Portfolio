@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    max-height: 100vh;
     padding: 80px 0;
     background-image: url("../images/landscape.jpg");
     background-blend-mode: darken;
@@ -28,7 +28,7 @@
   }
 
   &__text {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     line-height: 25px;
     font-family: "Gafata", sans-serif;
   }
