@@ -13,7 +13,7 @@ const Menu = props => {
         >
           sobre mi
         </Link>
-        <p className="modal__text--bars">||</p>
+        <p className="modal__text--bars">·</p>
         <Link
           to="/main#skills"
           className="modal__text"
@@ -22,7 +22,7 @@ const Menu = props => {
         >
           skills
         </Link>{" "}
-        <p className="modal__text--bars">||</p>
+        <p className="modal__text--bars">·</p>
         <Link
           to="/main#projects"
           className="modal__text"

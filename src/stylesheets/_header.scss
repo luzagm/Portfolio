@@ -56,10 +56,8 @@
   }
 }
 
-@media all and (min-width: 678px) {
+@media all and (min-width: 1200px) {
   .header {
-    padding: 20px 0;
-
     &__contact {
       &--icon {
         width: 70px;

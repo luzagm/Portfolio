@@ -16,6 +16,8 @@
     position: absolute;
     top: 0;
     right: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     background-color: black;
     padding: 20px 0 20px 20px;
   }
@@ -28,14 +30,19 @@
   }
 
   &__text {
-    padding: 0 5px;
+    padding: 0 8px;
     font-family: "Six Caps", sans-serif;
     letter-spacing: 3px;
     color: white;
     font-size: 26px;
+
+    &--bars {
+      padding: 0 8px;
+    }
   }
 
   &__close--btn {
+    padding: 0 10px 0 15px;
     font-family: "Six Caps", sans-serif;
     letter-spacing: 10px;
     color: white;
@@ -48,23 +55,28 @@
   display: none;
 }
 
-@media all and (min-width: 678px) {
+@media all and (min-width: 1200px) {
   .modal {
     &__background {
-      padding: 15px 0 15px 60px;
+      padding: 20px 0 20px 60px;
     }
     &__whiteicon {
       width: 70px;
     }
 
     &__text {
-      padding: 0 10px;
+      padding: 0 20px;
       font-size: 32px;
 
-      &--separador {
-        padding: 0 10px;
+      &--bars {
+        padding: 0 20px;
         font-size: 32px;
       }
+    }
+
+    &__close--btn {
+      padding: 0 10px 0 20px;
+      font-size: 32px;
     }
   }
 
