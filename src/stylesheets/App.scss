@@ -6,3 +6,8 @@
 @import "projects";
 @import "footer";
 @import "menu";
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}

@@ -43,6 +43,14 @@
     transition: all 0.4s ease-in-out;
   }
 
+  .projects__box h2 {
+    margin-top: 10px;
+  }
+
+  .projects__box p {
+    font-size: 12px;
+  }
+
   .projects__box:hover .mask {
     opacity: 1;
   }

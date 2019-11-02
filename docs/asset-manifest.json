@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.ef9bf71f.chunk.css",
+    "main.css": "./static/css/main.09c3dd08.chunk.css",
     "main.js": "./static/js/main.cd532ba5.chunk.js",
     "main.js.map": "./static/js/main.cd532ba5.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.9dc84051.js",
@@ -8,9 +8,9 @@
     "static/js/2.ff32c39e.chunk.js": "./static/js/2.ff32c39e.chunk.js",
     "static/js/2.ff32c39e.chunk.js.map": "./static/js/2.ff32c39e.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.dbdad1684a7bec9106fc88e09819cbb1.js": "./precache-manifest.dbdad1684a7bec9106fc88e09819cbb1.js",
+    "precache-manifest.75caed9ee62372c2124818d3f100164d.js": "./precache-manifest.75caed9ee62372c2124818d3f100164d.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.ef9bf71f.chunk.css.map": "./static/css/main.ef9bf71f.chunk.css.map",
+    "static/css/main.09c3dd08.chunk.css.map": "./static/css/main.09c3dd08.chunk.css.map",
     "static/media/Ai.svg": "./static/media/Ai.93ceeb6a.svg",
     "static/media/Atlas.png": "./static/media/Atlas.075d4657.png",
     "static/media/AwesomeProfileCards.png": "./static/media/AwesomeProfileCards.3d852ca1.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.9dc84051.js",
     "static/js/2.ff32c39e.chunk.js",
-    "static/css/main.ef9bf71f.chunk.css",
+    "static/css/main.09c3dd08.chunk.css",
     "static/js/main.cd532ba5.chunk.js"
   ]
 }
