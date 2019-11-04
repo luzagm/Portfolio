@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.460875c7.chunk.css",
+    "main.css": "./static/css/main.5a202189.chunk.css",
     "main.js": "./static/js/main.6056af72.chunk.js",
     "main.js.map": "./static/js/main.6056af72.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.9dc84051.js",
@@ -8,9 +8,9 @@
     "static/js/2.eb25155a.chunk.js": "./static/js/2.eb25155a.chunk.js",
     "static/js/2.eb25155a.chunk.js.map": "./static/js/2.eb25155a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.ad4bb3d03e24f7713ccc2b30eb7bfc43.js": "./precache-manifest.ad4bb3d03e24f7713ccc2b30eb7bfc43.js",
+    "precache-manifest.993f918ace36f054783c23ad687e0d0d.js": "./precache-manifest.993f918ace36f054783c23ad687e0d0d.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.460875c7.chunk.css.map": "./static/css/main.460875c7.chunk.css.map",
+    "static/css/main.5a202189.chunk.css.map": "./static/css/main.5a202189.chunk.css.map",
     "static/media/Ai.svg": "./static/media/Ai.93ceeb6a.svg",
     "static/media/Atlas.png": "./static/media/Atlas.075d4657.png",
     "static/media/AwesomeProfileCards.png": "./static/media/AwesomeProfileCards.3d852ca1.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.9dc84051.js",
     "static/js/2.eb25155a.chunk.js",
-    "static/css/main.460875c7.chunk.css",
+    "static/css/main.5a202189.chunk.css",
     "static/js/main.6056af72.chunk.js"
   ]
 }

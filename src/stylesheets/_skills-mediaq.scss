@@ -2,6 +2,7 @@
   .skills {
     min-height: 100vh;
     padding: 0;
+
     &__container {
       width: 65vw;
     }
@@ -38,9 +39,11 @@
 
 @media all and (min-width: 1200px) {
   .skills {
+    padding-top: 10px;
+
     &__description {
       display: flex;
-      width: 60vw;
+      width: 70vw;
     }
 
     &__programmer {
